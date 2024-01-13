@@ -1,0 +1,7 @@
+{
+    "name": "Quandary",
+    "image": "stdlinux-quandary",
+    "forwardPorts": [3000],
+    "postCreateCommand": "echo 'Welcome to your development container!'",
+    "mounts": ["source=${localWorkspaceFolder},target=/Quandary-Public,type=bind"]
+}
