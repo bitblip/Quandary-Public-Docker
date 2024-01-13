@@ -25,3 +25,6 @@ RUN wget http://www2.cs.tum.edu/projects/cup/releases/java-cup-bin-11b-20160615.
 
 # Set CUP_DIR environment variable
 ENV CUP_DIR /usr/lib/cup
+
+# Run bash by default
+CMD ["/bin/bash"]

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.cup": "java",
+        "*.jflex": "java"
+    },
+    "files.exclude": {
+        "**/*.class": true
+    },
+    "java.project.sourcePaths": ["skeleton"],
+    "java.project.referencedLibraries": [
+        "/usr/lib/cup/java-cup11b.jar",
+        "/usr/lib/cup/java-cup11b-runtime.jar",
+        "/usr/lib/jflex-1.7.0/lib/jflex-full-1.7.0.jar"
+    ]
+}
