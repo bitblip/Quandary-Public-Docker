@@ -4,7 +4,7 @@ RUN yum install -y gcc gdb make
 RUN yum install -y git
 
 # Install java
-RUN yum install -y java-1.8.0-openjdk-devel
+RUN yum install -y java-11-openjdk-devel
 
 RUN yum install -y wget
 RUN yum install -y wget tar

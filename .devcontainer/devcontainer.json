@@ -1,6 +1,8 @@
 {
     "name": "Quandary",
-    "image": "stdlinux-quandary",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
     "postCreateCommand": "echo 'Welcome to your development container!'",
     "mounts": ["source=${localWorkspaceFolder},target=/Quandary-Public,type=bind"],
     "customizations": {
