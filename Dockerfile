@@ -1,4 +1,4 @@
-FROM centos:7.9.2009
+FROM registry.access.redhat.com/ubi8/ubi:latest
 
 RUN yum install -y gcc gdb make
 RUN yum install -y git
