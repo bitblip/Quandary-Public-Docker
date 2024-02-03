@@ -39,7 +39,7 @@ The main reason this fork exists. Assuming you're still in the root directory (w
 > Protip: The hotkey to open the terminal is `ctrl+~'.
 
 ### Dev Container Setup
-There are two files that configure intellisense and linting for the project, `.vscode/settings.json` and `.devcontainer/devcontainer.json`. We're on our own for `.cup` and `.fjelx`, and `q` files, but we can at least get it for `.java` files. `Lexer.java` and `Parser.java` are emitting unsuppressed warnings; I'm leaving it alone until I learn these are okay to suppress.
+There are two files that configure intellisense and linting for the project, `.vscode/settings.json` and `.devcontainer/devcontainer.json`. We're on our own for `.cup`, `.fjelx`, and `.q` files, but we can at least get it for `.java` files. `Lexer.java` and `Parser.java` are emitting unsuppressed warnings; I'm leaving it alone until I learn these are okay to suppress.
 
 ### Quandary-Public
 
